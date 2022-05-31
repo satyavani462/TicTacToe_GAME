@@ -93,10 +93,9 @@ button{
         margin-top: 34px;
     }
     .gameinfo h1{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
-    .container{
-        grid-template-rows: repeat(3,20vw);
-        grid-template-columns: repeat(3,20vw);
+    #excited{
+
     }
 }

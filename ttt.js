@@ -25,7 +25,7 @@ const checkwin=()=>{
         if( (boxtexts[e[0]].innerText===boxtexts[e[1]].innerText) && (boxtexts[e[2]].innerText===boxtexts[e[1]].innerText) && (boxtexts[e[0]].innerText!=="") && (boxtexts[e[1]].innerText!=="") && (boxtexts[e[2]].innerText!=="")){
             console.log(e[3],e[4],e[5])
             document.getElementById('info').innerText="Hurray!..."+boxtexts[e[0]].innerText+" Won The Game";
-            document.getElementById("excited").style.width="200px";
+            document.getElementById("excited").style.width="100px";
             document.getElementById('line').style.width="20vw";
             document.getElementById('line').style.transform=`translate(${e[3]}vw,${e[4]}vw) rotate(${e[5]}deg)`
             isgameover=true;
